@@ -1,9 +1,14 @@
 import decode from 'jwt-decode';
 
 class AuthService {
-  getProfile() {
-    return decode(this.getToken());
-  }
+getProfile() {
+  return decode(this.getToken());
+}
+
+isAdmin() {
+  const profile = this.getProfile();
+  return profile?.data?.isAdmin === true;
+}
 
   loggedIn() {
     // Checks if there is a saved token and it's still valid

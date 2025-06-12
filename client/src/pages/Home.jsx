@@ -45,24 +45,6 @@ const Home = () => {
         >
           Welcome to Ralph's Restaurant
         </h1>
-        <div>
-          {state.users.length === 0 ? (
-            <p style={{ color: "var(--primary-red)", textAlign: "center" }}>
-              No users found.
-            </p>
-          ) : (
-            <ul className="user-list" style={{ listStyle: "none", padding: 0 }}>
-              {state.users.map((user) => (
-                <li key={user.email}>
-                  <span className="user-avatar">
-                    {user.email[0]?.toUpperCase()}
-                  </span>
-                  {user.email}
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
       </div>
     </div>
   );

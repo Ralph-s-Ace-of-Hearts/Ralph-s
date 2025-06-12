@@ -5,6 +5,7 @@ function Nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
+        
         <ul>
           <li>
             <a href="/" onClick={() => Auth.logout()}>
@@ -38,6 +39,9 @@ function Nav() {
           <Link to="/about">About</Link>
         </li>
       </ul>
+      {Auth.loggedIn() && Auth.isAdmin() && (
+        <a href="/admin">Admin</a>
+      )}
       <nav>{showNavigation()}</nav>
     </header>
   );

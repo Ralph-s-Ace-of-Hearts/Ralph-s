@@ -23,11 +23,10 @@ const resolvers = {
   },
   Mutation: {
     addUser: async (parent, args) => {
-      const user = await User.create(args);
-      const token = signToken(user);
-
-      return { token, user };
-    },
+  const user = await User.create(args);
+  const token = signToken(user); // user now includes isAdmin
+  return { token, user };
+},
     updateUser: async (parent, args, context) => {
       if (context.user) {
         return await User.findByIdAndUpdate(context.user._id, args, {
@@ -38,8 +37,7 @@ const resolvers = {
       throw AuthenticationError;
     },
     login: async (parent, { email, password }) => {
-      const user = await User.findOne({ email });
-
+  const user = await User.findOne({ email });
       if (!user) {
         throw AuthenticationError;
       }
@@ -50,9 +48,8 @@ const resolvers = {
         throw AuthenticationError;
       }
 
-      const token = signToken(user);
-
-      return { token, user };
+     const token = signToken(user); // user now includes isAdmin
+  return { token, user };
     },
   },
 };
