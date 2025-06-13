@@ -46,7 +46,14 @@ const Home = () => {
         >
           Welcome to Ralph's Restaurant
         </h1>
+        <h2>
+          Ralph's is a family-owned restaurant that has been serving the community for over 20 years. We pride ourselves on our delicious food, friendly service, and welcoming atmosphere. Whether you're here for a quick lunch or a special dinner, we have something for everyone.
+        </h2>
       </div>
+        <div className="specialImages">
+          <img src="images/tacoTuesday.jpg" alt="taco" />
+          <img src="images/wingWednesday.jpg" alt="wing" />
+        </div>
     </div>
   );
 };

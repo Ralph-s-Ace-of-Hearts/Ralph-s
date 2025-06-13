@@ -8,6 +8,7 @@ import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import About from './pages/About.jsx';
+import Admin from './pages/Admin.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,9 @@ const router = createBrowserRouter([
       }, {
         path: '/about',
         element: <About />
+      }, {
+        path: '/admin',
+        element: <Admin />
       },
     ],
   },

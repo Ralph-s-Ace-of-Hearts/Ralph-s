@@ -351,8 +351,31 @@ nav ul {
   padding: 0;
 }
 
+.specialImages {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center; 
+}
+
+.specialImages img {
+  width: 570px;
+  height: 870px;
+  object-fit: cover;      
+  border-radius: 8px;    
+  flex-shrink: 0;        
+  transition: width 0.2s, height 0.2s;
+}
+
 @media screen and (max-width: 768px) {
-  .card {
-    width: 100%;
+  .specialImages {
+    flex-direction: column;
+    align-items: center;
+  }
+  .specialImages img {
+    width: 90vw;
+    max-width: 350px;
+    height: auto;
   }
 }
