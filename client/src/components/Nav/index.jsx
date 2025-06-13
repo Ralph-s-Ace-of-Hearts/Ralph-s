@@ -29,7 +29,9 @@ function Nav() {
   return (
     <header>
       <h1>
-        <Link to="/">Ralph's</Link>
+        <Link to="/">
+        <img src="\images\ralphsLogo.jpg" alt="Ralph's Logo" style={{ height: "80px" }} />
+        </Link>
       </h1>
       <ul>
         <li>
