@@ -25,17 +25,18 @@ const Home = () => {
           background: "var(--white)",
         }}
       >
-        <h3 style={{ color: "var(--primary-red)" }}>Loading...</h3>
+        <h3 style={{ color: "var(--primary)" }}>Loading...</h3>
       </div>
     );
   }
 
   return (
     <div className="home-container">
+      <img src="/images/barPhoto.jpg" alt="Ralphs" className="headerImage" />
       <div className="main-content">
         <h1
           style={{
-            color: "var(--primary-red)",
+            color: "var(--primary)",
             fontWeight: 700,
             letterSpacing: "2px",
             marginBottom: "24px",

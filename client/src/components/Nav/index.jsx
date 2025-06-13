@@ -17,12 +17,9 @@ function Nav() {
     } else {
       return (
         <ul>
-          
+
           <li>
-            <Link to="/signup">Signup</Link>
-          </li>
-          <li>
-            <Link to="/login">Login</Link>
+            <Link to="/login">Employee Login</Link>
           </li>
         </ul>
       );
@@ -36,7 +33,16 @@ function Nav() {
       </h1>
       <ul>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about">Events</Link>
+        </li>
+        <li>
+          <Link to="/about">Menu</Link>
+        </li>
+        <li>
+          <Link to="/about">Gallery</Link>
+        </li>
+        <li>
+          <Link to="/about">Contact Us</Link>
         </li>
       </ul>
       {Auth.loggedIn() && Auth.isAdmin() && (
