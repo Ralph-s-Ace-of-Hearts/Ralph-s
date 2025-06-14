@@ -35,16 +35,16 @@ function Nav() {
       </h1>
       <ul>
         <li>
-          <Link to="/about">Events</Link>
+          <Link to="/events">Events</Link>
         </li>
         <li>
-          <Link to="/about">Menu</Link>
+          <Link to="/menu">Menu</Link>
         </li>
         <li>
-          <Link to="/about">Gallery</Link>
+          <Link to="/gallery">Gallery</Link>
         </li>
         <li>
-          <Link to="/about">Contact Us</Link>
+          <Link to="/about">About Us</Link>
         </li>
       </ul>
       {Auth.loggedIn() && Auth.isAdmin() && (
