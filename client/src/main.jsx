@@ -9,6 +9,9 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import About from './pages/About.jsx';
 import Admin from './pages/Admin.jsx';
+import Events from './pages/Events.jsx';
+import Gallery from './pages/Gallery.jsx';
+import Menu from './pages/Menu.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,7 +34,16 @@ const router = createBrowserRouter([
       }, {
         path: '/admin',
         element: <Admin />
-      },
+      }, {
+        path: '/events',
+        element: <Events />
+      }, {
+        path: '/gallery',
+        element: <Gallery />
+      }, {
+        path: '/menu',
+        element: <Menu />
+      }, 
     ],
   },
 ]);

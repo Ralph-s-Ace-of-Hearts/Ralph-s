@@ -1,4 +1,4 @@
-import { Navigate } from "react-router-dom";
+import { Navigate, Link } from "react-router-dom";
 import Auth from "../utils/auth";
 
 // Route guard for admin-only access
@@ -25,7 +25,9 @@ export default function Admin() {
       <div style={{ marginTop: "2rem" }}>
         <h2>Business Settings</h2>
         <button>Update Hours</button>
-        <button style={{ marginLeft: "1rem" }}>Manage Reservations</button>
+        <Link to="/signup">
+        <button style={{ marginLeft: "1rem" }}>Add Employee Account</button>
+        </Link>
       </div>
     </div>
   );
