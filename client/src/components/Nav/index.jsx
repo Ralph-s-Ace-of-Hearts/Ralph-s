@@ -46,10 +46,12 @@ function Nav() {
         <li>
           <Link to="/about">About Us</Link>
         </li>
-      </ul>
       {Auth.loggedIn() && Auth.isAdmin() && (
-        <a href="/admin">Admin</a>
+        <li>
+          <Link to="/admin">Admin</Link>
+        </li>
       )}
+      </ul>
       <nav>{showNavigation()}</nav>
     </header>
   );
