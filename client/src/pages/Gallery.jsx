@@ -6,6 +6,10 @@ const galleryImages = [
 //   { src: "/images/steak.jpg", alt: "Grilled Steak" },
 //   { src: "/images/cocktail.jpg", alt: "Craft Cocktail" },
 //   { src: "/images/bar.jpg", alt: "Our Bar" }
+  { src: "/images/ralphsBarRail.jpg", alt: "Gallery Image 1" },
+  { src: "/images/ralphsEBC.jpg", alt: "Gallery Image 2" },
+  { src: "/images/ralphsPoolTable.jpg", alt: "Gallery Image 3" },
+  { src: "/images/ralphsPrimeRib.jpg", alt: "Gallery Image 4" },
 ];
 
 const Gallery = () => (
