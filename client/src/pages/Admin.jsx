@@ -39,20 +39,19 @@ export default function Admin({ addMenuItem }) {
       <p>Welcome, Admin! Use the tools below to manage your restaurant website.</p>
       <div style={{ marginTop: "2rem" }}>
         <h2>Website Content</h2>
-        <button>Edit Menu</button>
         <button style={{ marginLeft: "1rem" }}>Edit Events</button>
         <button style={{ marginLeft: "1rem" }}>Edit Gallery</button>
         <button style={{ marginLeft: "1rem" }}>Edit Contact Page</button>
       </div>
       <div style={{ marginTop: "2rem" }}>
-        <h2>Business Settings</h2>
-        <button>Update Hours</button>
         <Link to="/signup">
           <button style={{ marginLeft: "1rem" }}>Add Employee Account</button>
         </Link>
       </div>
       {/* Only one Add Menu Item button and form */}
-      <button onClick={() => setShowForm(true)}>Add Menu Item</button>
+    <button style={{ marginLeft: "1rem" }} onClick={() => setShowForm(true)}>
+  Add Menu Item
+</button>
       {showForm && (
         <form onSubmit={handleSubmit} style={{ marginTop: "1em" }}>
           <div>
