@@ -1,6 +1,7 @@
-
+import React from "react";
 
 const menu = {
+  
   appetizers: [
     { name: "", description: "", price: ""},
     { name: "Bone-In Wings", description: "Deep Fried or Grilled. Choice of mild, buffalo, extra hot, suicide, honey garlic, sweet chili, cajun, siracha, garlic parmesean, teriyaki, sweet BBQ, or Kansas City BBQ.", price: "8 for $9.25 OR 12 for $12.25" },
@@ -36,8 +37,16 @@ const menu = {
 
 const Menu = () => (
   <div className="menu-page" style={{ maxWidth: 900, margin: "2rem auto", padding: "1rem" }}>
-    <h1 style={{ textAlign: "center", marginBottom: "2rem" }}>Menu</h1>
-    <section>
+    {/* Navigation Section */}
+    <nav style={{ position: "sticky", top: 0, background: "#fff", zIndex: 100, padding: "1rem 0" }}>
+      <a href="#appetizers" style={{ marginRight: "1rem" }}>Appetizers</a>
+      <a href="#entrees" style={{ marginRight: "1rem" }}>Entrees</a>
+      <a href="#drinks" style={{ marginRight: "1rem" }}>Drinks</a>
+      <a href="#desserts">Desserts</a>
+    </nav>
+
+    {/* Menu Sections */}
+    <section id="appetizers">
       <h2>Appetizers</h2>
       <ul>
         {menu.appetizers.length === 0 ? (
@@ -51,7 +60,7 @@ const Menu = () => (
         )}
       </ul>
     </section>
-    <section>
+    <section id="entrees">
       <h2>Entrees</h2>
       <ul>
         {menu.entrees.length === 0 ? (
@@ -65,7 +74,7 @@ const Menu = () => (
         )}
       </ul>
     </section>
-    <section>
+    <section id="drinks">
       <h2>Drinks</h2>
       <ul>
         {menu.drinks.length === 0 ? (
@@ -79,7 +88,7 @@ const Menu = () => (
         )}
       </ul>
     </section>
-    <section>
+    <section id="desserts">
       <h2>Desserts</h2>
       <ul>
         {menu.desserts.length === 0 ? (

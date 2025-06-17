@@ -1,33 +1,33 @@
 
-// const events = [
-//   {
-//     id: 1,
-//     title: "Live Jazz Night",
-//     date: "June 21, 2025",
-//     time: "7:00 PM",
-//     image: "/images/jazz-night.jpg",
-//     description:
-//       "Enjoy a night of smooth jazz with local musicians. Great food and drinks available all evening!",
-//   },
-//   {
-//     id: 2,
-//     title: "Trivia Tuesday",
-//     date: "June 25, 2025",
-//     time: "8:00 PM",
-//     image: "/images/trivia-night.jpg",
-//     description:
-//       "Bring your friends and test your knowledge for prizes and fun. Teams up to 6 people.",
-//   },
-//   {
-//     id: 3,
-//     title: "Family Brunch",
-//     date: "June 30, 2025",
-//     time: "10:00 AM - 2:00 PM",
-//     image: "/images/brunch.jpg",
-//     description:
-//       "A special brunch menu for the whole family. Kids eat free with every adult meal.",
-//   },
-// ];
+const events = [
+  {
+    id: 1,
+    title: "Meat Raffle",
+    date: "Every Saturday",
+    time: "7:00 PM",
+    image: "/images/jazz-night.jpg",
+    description:
+      "Join us every Saturday for our famous Meat Raffle! Buy tickets for a chance to win a variety of meats, from steaks to sausages.",
+  },
+  // {
+  //   id: 2,
+  //   title: "Trivia Tuesday",
+  //   date: "June 25, 2025",
+  //   time: "8:00 PM",
+  //   image: "/images/trivia-night.jpg",
+  //   description:
+  //     "Bring your friends and test your knowledge for prizes and fun. Teams up to 6 people.",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Family Brunch",
+  //   date: "June 30, 2025",
+  //   time: "10:00 AM - 2:00 PM",
+  //   image: "/images/brunch.jpg",
+  //   description:
+  //     "A special brunch menu for the whole family. Kids eat free with every adult meal.",
+  // },
+];
 
 const Events = () => (
   <div
