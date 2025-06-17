@@ -1,3 +1,7 @@
+//we could probably remove this file altogether, we could implement username and password through database when an employee account is needed.
+
+
+
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
