@@ -2,7 +2,26 @@
 
 const menu = {
   appetizers: [
-    // { name: "Mozzarella Sticks", description: "Crispy and cheesy.", price: "$7" },
+    { name: "", description: "", price: ""},
+    { name: "Bone-In Wings", description: "Deep Fried or Grilled. Choice of mild, buffalo, extra hot, suicide, honey garlic, sweet chili, cajun, siracha, garlic parmesean, teriyaki, sweet BBQ, or Kansas City BBQ.", price: "8 for $9.25 OR 12 for $12.25" },
+    { name: "Potato Skins", description: "6 halves filled with cheddar cheese and bacon with side of sour cream.", price: "$8.75"},
+    { name: "Italian Beef Egg Rolls", description:"6 halves served with horseradish sauce or Au-Jus.", price:"$8.75"},
+    { name: "Pot Stickers", description: "Pork filled served with dipping sauce.", price: "$8.25"},
+    { name: "Ultimate Nachos", description: "Homemade chips topped with nacho cheese, shredded monterey jack, lettuce, and tomato. (Jalepenos optional) ADD BEEF - $3.00 ADD CHICKEN - $3.00 ADD STEAK - $11.75", price: "$7.75"},
+    { name: "Fried Shrimp", description: "Jumbo hand breaded, battered deep fried shrimp with homemade cocktail sauce and garlic bread.", price: "$11.75"},
+    { name: "Garlic Shrimp", description: "Sauteed in garlic butter and served with garlic bread.", price: "$11.75"},
+    { name: "Buffalo Fried Shrimp", description: "Our fried shrimp in buffalo and served with garlic bread", price: "$11.75"},
+    { name: "Cheese Quesadillas", description: "12 inch flour tortilla filled with monterey jack or mozzzrella and served with sour cream. ADD CHICKEN - $3.00 ADD STEAK - $7.25", price: "$6.75"},
+    { name: "Onion Rings", description: "Battered thick cut onion rings served with ranch", price: "$7.25"},
+    { name: "Fried Mushroooms", description: "Battered and deep fried served with ranch", price: "$7.25"},
+    { name: "Mozzarella Sticks", description: "Breaded and served with marinara", price: "$6.75"},
+    { name: "Cheese Curds", description: "With choice of sauce", price: "$7.25"},
+    { name: "Chicken Tenders", description: "With choice of sauce (add small fried for $1.75).", price: "7.25"},
+    { name: "Pizza Puff", description: "Golden brown and crispy", price: "3.75"},
+    { name: "Combo Platter", description: "Chicken strips, onion rings, mushrooms, and mozzarella sticks, served with ranch and marinara.", price: "$11.25"},
+    { name: "Basket of Fried or Tots", description: "Add cup of cheese $1.25", price: "$3.00"},
+    { name: "Loaded Fries or Tots", description: "Fries or Tots smothered in Monterey Jack, nacho cheese, and bacon, served with sour cream.", price: "$7.75"},
+    { name: "Chili Cheese Fries or Tots", description: "Fries or Tots smothered with nacho cheese, shredded monterey jack, chili, onion and served with sour cream.", price: "$7.75"},
   ],
   entrees: [
     // { name: "Classic Burger", description: "Served with fries.", price: "$12" },
