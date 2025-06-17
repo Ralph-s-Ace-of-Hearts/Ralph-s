@@ -10,6 +10,14 @@ const galleryImages = [
   { src: "/images/ralphsEBC.jpg", alt: "Gallery Image 2" },
   { src: "/images/ralphsPoolTable.jpg", alt: "Gallery Image 3" },
   { src: "/images/ralphsPrimeRib.jpg", alt: "Gallery Image 4" },
+  { src: "/images/ralphsBarRail2.jpg", alt: "Gallery Image 5" },
+  { src: "/images/ralphsBloodyMary.jpg", alt: "Gallery Image 6" },
+  { src: "/images/ralphsCustomer.jpg", alt: "Gallery Image 7" },
+  { src: "/images/ralphsEntrance.jpg", alt: "Gallery Image 8" },
+  { src: "/images/ralphsFishFry.jpg", alt: "Gallery Image 9" },
+  { src: "/images/ralphsPhilly.jpg", alt: "Gallery Image 10" },
+  { src: "/images/ralphsPotatoPancakes.jpg", alt: "Gallery Image 11" },
+  { src: "/images/ralphsPotatoSoup.jpg", alt: "Gallery Image 12" }
 ];
 
 const Gallery = () => (
