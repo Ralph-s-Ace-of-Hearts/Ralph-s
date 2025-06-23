@@ -34,9 +34,9 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <img src="/images/barPhoto.jpg" alt="Ralphs" className="headerImage" />
+      <img data-aos="fade-up" src="/images/barPhoto.jpg" alt="Ralphs" className="headerImage" />
       <div className="main-content">
-        <h1
+        <h1 data-aos="fade-down-right"
           style={{
             color: "var(--primary)",
             fontWeight: 700,
@@ -48,7 +48,7 @@ const Home = () => {
         >
           Welcome to Ralph's Restaurant
         </h1>
-        <h2>
+        <h2 data-aos="fade-down-left">
           Ralph's is a family-owned restaurant that has been serving the community for over 20 years. We pride ourselves on our delicious food, friendly service, and welcoming atmosphere. Whether you're here for a quick lunch or a special dinner, we have something for everyone.
         </h2>
       </div>

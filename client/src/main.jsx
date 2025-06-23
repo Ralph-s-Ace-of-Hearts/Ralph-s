@@ -13,6 +13,7 @@ import Events from './pages/Events.jsx';
 import Gallery from './pages/Gallery.jsx';
 import Menu from './pages/Menu.jsx';
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -47,6 +48,7 @@ const router = createBrowserRouter([
     ],
   },
 ]);
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />

@@ -18,7 +18,7 @@ function Weather() {
   }, []);
 
   return (
-    <div>
+    <h2>
       {temp !== null ? `Current temperature: ${temp}°F` : "Loading..."}
       {temp !== null && (
         <div>
@@ -31,7 +31,7 @@ function Weather() {
           )}
         </div>
       )}
-    </div>
+    </h2>
   );
 }
 

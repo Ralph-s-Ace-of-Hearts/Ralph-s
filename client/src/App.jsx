@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Outlet } from 'react-router-dom';
 import {
   ApolloClient,
@@ -10,6 +11,9 @@ import { setContext } from '@apollo/client/link/context';
 import Nav from './components/Nav';
 import { GlobalProvider } from './utils/GlobalState';
 import './index.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -29,8 +33,10 @@ const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
-
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  }, []);
   return (
     <ApolloProvider client={client}>
       <div>
