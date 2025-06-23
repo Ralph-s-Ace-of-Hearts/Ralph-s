@@ -3,6 +3,7 @@ import { QUERY_USERS } from "../utils/queries";
 import { useQuery } from "@apollo/client";
 import { useEffect } from "react";
 import { SET_USERS } from "../utils/actions";
+import Weather from "../components/WeatherReccomendation";
 
 const Home = () => {
   const [state, dispatch] = useGlobalContext();
@@ -54,6 +55,9 @@ const Home = () => {
           <img src="images/tacoTuesday.jpg" alt="taco" />
           <img src="images/wingWednesday.jpg" alt="wing" />
         </div>
+      <div className="weather-recommendation">
+        <Weather />
+      </div>
     </div>
   );
 };

@@ -111,7 +111,6 @@
 // Example hardcoded menu data
 const defaultMenu = {
   appetizers: [
-    { name: "", description: "", price: ""},
     { name: "Bone-In Wings", description: "Deep Fried or Grilled. Choice of mild, buffalo, extra hot, suicide, honey garlic, sweet chili, cajun, siracha, garlic parmesean, teriyaki, sweet BBQ, or Kansas City BBQ.", price: "8 for $9.25 OR 12 for $12.25" },
     { name: "Potato Skins", description: "6 halves filled with cheddar cheese and bacon with side of sour cream.", price: "$8.75"},
     { name: "Italian Beef Egg Rolls", description:"6 halves served with horseradish sauce or Au-Jus.", price:"$8.75"},
