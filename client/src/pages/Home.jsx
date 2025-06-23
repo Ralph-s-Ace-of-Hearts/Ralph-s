@@ -4,6 +4,7 @@ import { useQuery } from "@apollo/client";
 import { useEffect } from "react";
 import { SET_USERS } from "../utils/actions";
 import Weather from "../components/WeatherReccomendation";
+import Facebook from "../components/Facebook";
 
 const Home = () => {
   const [state, dispatch] = useGlobalContext();
@@ -57,6 +58,12 @@ const Home = () => {
         </div>
       <div className="weather-recommendation">
         <Weather />
+      </div>
+      <div>
+        <h2 style={{ textAlign: "center", margin: "2rem 0" }}>
+          Follow us on Facebook for the latest updates!
+        </h2>
+        <Facebook />
       </div>
     </div>
   );
