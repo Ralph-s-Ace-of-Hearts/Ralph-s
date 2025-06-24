@@ -41,7 +41,7 @@ export default function Admin({ addMenuItem }) {
         <h2>Website Content</h2>
         <button style={{ marginLeft: "1rem" }}>Edit Events</button>
         <button style={{ marginLeft: "1rem" }}>Edit Gallery</button>
-        <button style={{ marginLeft: "1rem" }}>Edit Contact Page</button>
+        <button style={{ marginLeft: "1rem" }}>Edit About Us Page</button>
       </div>
       <div style={{ marginTop: "2rem" }}>
         <Link to="/signup">

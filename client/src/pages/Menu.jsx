@@ -127,7 +127,7 @@ const defaultMenu = {
     { name: "Chicken Tenders", description: "With choice of sauce (add small fried for $1.75).", price: "7.25"},
     { name: "Pizza Puff", description: "Golden brown and crispy", price: "3.75"},
     { name: "Combo Platter", description: "Chicken strips, onion rings, mushrooms, and mozzarella sticks, served with ranch and marinara.", price: "$11.25"},
-    { name: "Basket of Fried or Tots", description: "Add cup of cheese $1.25", price: "$3.00"},
+    { name: "Basket of Fries or Tots", description: "Add cup of cheese $1.25", price: "$3.00"},
     { name: "Loaded Fries or Tots", description: "Fries or Tots smothered in Monterey Jack, nacho cheese, and bacon, served with sour cream.", price: "$7.75"},
     { name: "Chili Cheese Fries or Tots", description: "Fries or Tots smothered with nacho cheese, shredded monterey jack, chili, onion and served with sour cream.", price: "$7.75"},
   ],
