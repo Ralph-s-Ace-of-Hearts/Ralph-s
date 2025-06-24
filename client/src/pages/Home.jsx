@@ -5,6 +5,8 @@ import { useEffect } from "react";
 import { SET_USERS } from "../utils/actions";
 import Weather from "../components/WeatherReccomendation";
 import Facebook from "../components/Facebook";
+import HomepageVideo from "../components/HomepageVideo";
+import VideoBackground from "../components/VideoBackground";
 
 const Home = () => {
   const [state, dispatch] = useGlobalContext();
@@ -35,6 +37,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <img data-aos="fade-up" src="/images/barPhoto.jpg" alt="Ralphs" className="headerImage" />
+      <VideoBackground />
       <div className="main-content">
         <h1 data-aos="fade-down-right"
           style={{
@@ -48,19 +51,25 @@ const Home = () => {
         >
           Welcome to Ralph's Restaurant
         </h1>
+        <div>
+          < HomepageVideo />
+        </div>
         <h2 data-aos="fade-down-left">
           Ralph's is a family-owned restaurant that has been serving the community for over 20 years. We pride ourselves on our delicious food, friendly service, and welcoming atmosphere. Whether you're here for a quick lunch or a special dinner, we have something for everyone.
         </h2>
       </div>
         <div className="specialImages">
-          <img data-aos="fade-down right" src="images/tacoTuesday.jpg" alt="taco" />
-          <img data-aos="fade-down left" src="images/wingWednesday.jpg" alt="wing" />
+          <h2 style={{ textAlign: "center", margin: "2rem 0" }}>Check out our specials!</h2>
+          <div className="specialImages-row">
+            <img src="images/tacoTuesday.jpg" alt="taco" />
+            <img src="images/wingWednesday.jpg" alt="wing" />
+          </div>
         </div>
       <div className="weather-recommendation">
         <Weather />
       </div>
       <div>
-        <h2 style={{ textAlign: "center", margin: "2rem 0" }}>
+        <h2 style={{ textAlign: "center", margin: "2rem 0"  }}>
           Follow us on Facebook for the latest updates!
         </h2>
         <Facebook />

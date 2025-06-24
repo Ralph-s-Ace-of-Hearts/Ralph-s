@@ -361,19 +361,32 @@ nav ul {
 
 .specialImages {
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 1rem;
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
 }
 
-.specialImages img {
+.specialImages-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .specialImages img {
   width: 570px;
   height: 870px;
   object-fit: cover;      
   border-radius: 8px;    
   flex-shrink: 0;        
   transition: width 0.2s, height 0.2s;
+} */
+
+.specialImages-row img {
+  width: 570px;
+  height: 870px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 768px) {
