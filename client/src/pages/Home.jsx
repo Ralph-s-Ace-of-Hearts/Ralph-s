@@ -7,6 +7,7 @@ import Weather from "../components/WeatherReccomendation";
 import Facebook from "../components/Facebook";
 import HomepageVideo from "../components/HomepageVideo";
 import VideoBackground from "../components/VideoBackground";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [state, dispatch] = useGlobalContext();
@@ -74,6 +75,7 @@ const Home = () => {
         </h2>
         <Facebook />
       </div>
+      <Footer />
     </div>
   );
 };
