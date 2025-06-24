@@ -53,8 +53,8 @@ const Home = () => {
         </h2>
       </div>
         <div className="specialImages">
-          <img src="images/tacoTuesday.jpg" alt="taco" />
-          <img src="images/wingWednesday.jpg" alt="wing" />
+          <img data-aos="fade-down right" src="images/tacoTuesday.jpg" alt="taco" />
+          <img data-aos="fade-down left" src="images/wingWednesday.jpg" alt="wing" />
         </div>
       <div className="weather-recommendation">
         <Weather />
