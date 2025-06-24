@@ -89,7 +89,7 @@ function Weather() {
             ) : temp > 80 ? (
               <span>Hot outside? Cool off with a Vodka Iced Tea or a frozen margarita! 🍹</span>
             ) : (
-              <span>Perfect weather! Enjoy a cold beer and try your luck at the tables! 🍺🃏</span>
+              <span>Perfect weather! Enjoy a cold beer and try your luck at the slots! 🍺🃏</span>
             )}
           </div>
         )}
