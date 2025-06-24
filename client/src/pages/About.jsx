@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const getVar = (v) =>
   getComputedStyle(document.documentElement).getPropertyValue(v).trim();
@@ -175,6 +176,7 @@ const About = () => (
         </div>
       </section>
     </div>
+    <Footer />
   </div>
 );
 

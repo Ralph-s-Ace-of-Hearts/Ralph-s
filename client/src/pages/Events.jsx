@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 
 const events = [
   {
@@ -91,6 +92,7 @@ const Events = () => (
         </div>
       ))}
     </div>
+<Footer /> 
   </div>
 );
 

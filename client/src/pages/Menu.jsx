@@ -1,5 +1,7 @@
 // import React from "react";
 
+import Footer from "../components/Footer";
+
 // const menu = {
   
 //   appetizers: [
@@ -133,7 +135,11 @@ const defaultMenu = {
   ],
   entrees: [
     { name: "Grilled Salmon", description: "With lemon butter", price: "$15.99" },
-    // ...other entrees
+    { name: "Ribeye Steak", description: "8oz slow cooked marinated ribeye cooked over open flame.", price: "$14.75" },
+    { name: "Deep Fried Shrimp", description: "Jumbo hand breaded, battered deep fried shrimp with cocktail sauce.", price: "$13.75" },
+    { name: "Sizzled Shrimp", description: "Sauteed in garlic butter and served with butter.", price: "$13.75" },
+    { name: "Smoke House Chicken", description: "7oz chicken breast smothered in BBQ, Bacon, Mozzarella, and Monterey Jack cheese.", price: "$10.75"},
+    {name: "Smothered Grilled Chicken", description: "7oz grilled chicken breast tipped with onions, red and green peppers, and mozzarela cheese.", price: "$10.75" },
   ],
   drinks: [
     { name: "Iced Tea", description: "Freshly brewed", price: "$2.99" },
@@ -212,6 +218,7 @@ const Menu = ({ menu = { appetizers: [], entrees: [], drinks: [], desserts: [] }
         )}
       </ul>
     </section>
+    <Footer />
   </div>
 );
 
